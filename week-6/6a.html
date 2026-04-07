@@ -1,0 +1,123 @@
+ <!doctype html>
+<html>
+<head>
+<title>Minimal Store</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family: "Segoe UI", Arial;
+    background:#f5f7fa;
+}
+
+/* HEADER */
+
+.header{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#1f2937;
+    color:white;
+    padding:15px 30px;
+    font-size:22px;
+}
+
+.search-box input{
+    padding:8px 12px;
+    border:none;
+    border-radius:20px;
+    outline:none;
+}
+
+/* MAIN LAYOUT */
+
+.container{
+    display:flex;
+    min-height:85vh;
+}
+
+/* SIDEBAR */
+
+.sidebar{
+    width:220px;
+    background:white;
+    padding-top:20px;
+    box-shadow:2px 0 8px rgba(0,0,0,0.08);
+}
+
+.sidebar a{
+    display:block;
+    padding:14px 20px;
+    text-decoration:none;
+    color:#374151;
+    font-weight:500;
+    transition:0.3s;
+}
+
+.sidebar a:hover{
+    background:#6366f1;
+    color:white;
+    padding-left:28px;
+}
+
+/* CONTENT AREA */
+
+.content{
+    flex:1;
+    padding:20px;
+}
+
+iframe{
+    width:100%;
+    height:600px;
+    border:none;
+    border-radius:8px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* FOOTER */
+
+.footer{
+    background:#111827;
+    color:#9ca3af;
+    text-align:center;
+    padding:14px;
+    font-size:14px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="header">
+    Minimal E-Commerce Store
+
+    <div class="search-box">
+        <input type="text" placeholder="Search products...">
+    </div>
+</div>
+
+<div class="container">
+
+<div class="sidebar">
+<a href="E1.html" target="frame">📱 Electronics</a>
+<a href="E2.html" target="frame">👕 Clothing</a>
+<a href="E3.html" target="frame">🏠 Home Appliances</a>
+<a href="E4.html" target="frame">📚 Books</a>
+</div>
+
+<div class="content">
+<iframe name="frame" src="Q6aElectronics.html"></iframe>
+</div>
+
+</div>
+
+<div class="footer">
+© 2026 Minimal Store • Web Technology Lab Project
+</div>
+
+</body>
+</html>

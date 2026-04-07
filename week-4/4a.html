@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <body style="background-color: lightblue;">
+        <h1>College Admission Registration</h1>
+        <table border="1" width="500" style="background-color: aliceblue;" cellpadding="15">
+            <tr>
+                <form>
+                <td><label for="fname">Full name:</label></td>
+                <td><input type="text" name="full name" id="fname" size="30"></td>
+                </form>
+            </tr>
+            <tr>
+                <form>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" name="email" id="email" size="30"></td>
+                </form>
+            </tr>
+            <tr>
+                <form>
+                <td><label for="phonenumber">Phone Number:</label></td>
+                <td><input type="number" name="phone number" id="phonenumber" size="30"></td>
+                </form>
+            </tr>
+            <tr>
+                <form>
+                <td><label for="gender">Gender</label></td>
+                <td><input type="radio" name="gender" id="gender" value="gender">Male
+                <input type="radio" name="gender" id="gender" value="gender">Female
+                <input type="radio" name="gender" id="gender" value="gender">Others</td>
+                </form>
+            </tr>
+            <tr>
+                <form>
+                <td><label for="course">course applying for:</label></td>
+                <td>
+                    <select id="course">
+                    <option value="">B.Tech</option>
+                    <option value="CSE">CSE</option>
+                    <option value="ECE">ECE</option>
+                    <option value="IT">IT</option>
+                    <option value="CCE">CCE</option>
+                    </select>
+                </td>
+            <tr>
+                <form>
+                <td><label for="hobbies">hobbies</label></td>
+                <td><input type="checkbox">reading
+                <input type="checkbox">sports
+                <input type="checkbox">music</td>
+                </form>
+            </tr>
+            <tr>
+                <form>
+                <td><label for="dob">Date of Birth</label></td>
+                <td><input type="date" name="dob" id="dob"></td>
+                </form>
+            </tr>
+            <tr>
+                <form>
+                <td><label for="file">Certificates:</label></td>
+                <td><input type="file" name="Certificates" id="file" multiple></td>
+                </form>
+            </tr>
+            <tr>
+                <form>
+                <td><label for="address">Address</label></td>
+                <td><textarea rows="5" cols="30"></textarea></td>
+                </form>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;"><button type="reset">reset</button>
+                <button type="submit" >submit</button></td>
+            </tr>
+        </table>
+    </body>
+</html>
